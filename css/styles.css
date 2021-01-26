@@ -1,0 +1,38 @@
+.navbar {
+    background-color: black;
+}
+
+.rightBorder {
+    border-right: 1px solid;
+    border-color: grey;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.underline {
+    position: relative;
+}
+
+.underline:before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    bottom: 5px;
+    left: 5%;
+    background-color: grey;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+
+ #brand {
+     border: 1px solid white;
+     padding-right: 10px;
+     padding-left: 10px;
+     box-shadow: 0px 0px 0px 2px white;
+ }
