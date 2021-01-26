@@ -1,7 +1,7 @@
+/* Navigation */
 .navbar {
     background-color: black;
 }
-
 
 
 .rightBorder {
@@ -38,3 +38,11 @@
      padding-left: 10px;
      box-shadow: 0px 0px 0px 2px white;
  }
+
+ /* Header */
+
+ header {
+    background-image: url("../images/forest.jpg");
+    background-size: cover;
+    padding: 156px 0 100px;
+  }
