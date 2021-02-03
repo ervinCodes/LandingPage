@@ -42,13 +42,18 @@
  /* Header */
 
  header {
-    background-image: url("../images/forest.jpg");
+    background-image: url("../images/moon.jpg");
     background-size: cover;
-    padding: 156px 0 100px;
+    padding: 300px 0 300px;
   }
+
 
   /* About */
 
   section {
     padding: 150px 0;
+  }
+
+  h1, h2, p {
+    font-family: 'Quattrocento', serif;
   }
