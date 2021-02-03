@@ -42,11 +42,11 @@
  /* Header */
 
  header {
-    background-image: url("../images/moon.jpg");
+    background-image: url("../images/losAngeles.jpg");
     background-size: cover;
-    padding: 300px 0 300px;
+    padding: 300px 0 400px;
+    background-position: center;
   }
-
 
   /* About */
 
