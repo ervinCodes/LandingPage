@@ -1,35 +1,18 @@
+/* Body */
+
+body {
+    background: url(/images/losAngeles.jpg) no-repeat 50% fixed;
+    background-size: cover;
+}
+
 /* Navigation */
 .navbar {
     background-color: black;
 }
 
-
 .rightBorder {
     border-right: 1px solid;
     border-color: grey;
-}
-
-.text-center {
-    text-align: center!important;
-}
-
-.underline {
-    position: relative;
-}
-
-.underline:before {
-    content: "";
-    position: absolute;
-    width: 90%;
-    height: 1px;
-    bottom: 5px;
-    left: 5%;
-    background-color: grey;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all .3s ease-in-out 0s;
-    transition: all .3s ease-in-out 0s;
 }
 
  #brand {
@@ -41,14 +24,11 @@
 
  /* Header */
 
- header {
-    background-image: url("../images/losAngeles.jpg");
-    background-size: cover;
+header {
     padding: 300px 0 400px;
-    background-position: center;
   }
 
-  /* About */
+/* About */
 
   section {
     padding: 150px 0;
@@ -61,4 +41,10 @@
   .line {
     border-bottom: 2px ridge;
     padding: 5px;
+}
+
+/* Contact Page */
+
+#connect {
+    background-color: rgba(0, 0, 0, 0.5);
 }
