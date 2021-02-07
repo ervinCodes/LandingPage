@@ -57,3 +57,8 @@
   h1, h2, p {
     font-family: 'Quattrocento', serif;
   }
+
+  .line {
+    border-bottom: 2px ridge;
+    padding: 5px;
+}
