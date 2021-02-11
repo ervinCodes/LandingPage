@@ -27,24 +27,24 @@
             </button>
             <div class="collapse navbar-collapse text-center" id="homeNavbar">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active rightBorder px-5">
-                        <a class="nav-link underline" href="#">
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li class="nav-item rightBorder px-5">
+                    <li class="nav-item active px-5">
                         <a class="nav-link" href="#">
-                            About
-                        </a>
-                    </li>
-                    <li class="nav-item rightBorder px-5">
-                        <a class="nav-link" href="#">
-                            Projects
+                            HOME
                         </a>
                     </li>
                     <li class="nav-item px-5">
                         <a class="nav-link" href="#">
-                            Connect
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="nav-item  px-5">
+                        <a class="nav-link" href="#">
+                            PROJECTS
+                        </a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link" href="#">
+                            CONNECT
                         </a>
                     </li>
                 </ul>
@@ -53,7 +53,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="text-white">
+    <header class="text-white" id="top">
         <div class="container text-center">
                 <h1 id="caption">Hello, my name is Ervin.</h1>
                     <p class="text-center" id="caption">And I'm a Frontend Developer & Freelancer.</p>
@@ -62,7 +62,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="bg-light">
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 mx-auto">
@@ -114,21 +114,26 @@
 
     <!-- Contact -->
     <section id="contact">
-        <div class="container text-center text-white" id="connect">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2>Lets Connect</h2>
-              <p>ean1207@gmail.com</p>
+        <div class="container text-center text-white">
+            <div class="row">
+                <div class="col-lg-6 mx-auto" id="connect">
+                    <h2>Lets Connect</h2>
+                    <p>ean1207@gmail.com</p>
+                </div>
             </div>
-          </div>
+            <div class="row justify-content-center">
+                <a class="nav-link" href="#" id="top">Back to Top</a>
+            </div>
         </div>
       </section>
 
-    <!-- Footer -->
-    <footer class="site-footer bg-dark">
 
+  <!-- Footer -->
+    <footer class="py-5" id="footer">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; 2021 Ervin Natareno.  All rights reserved.  This site was built from scratch.</p>
+        </div>
     </footer>
-
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
