@@ -1,15 +1,22 @@
 /* Body */
 
+
 body {
-    background: url(/images/losAngeles.jpg) no-repeat 50% fixed;
+    background: url(/images/forest.jpg) no-repeat 50% fixed;
     background-size: cover;
 }
 
+
+
 /* Navigation */
 .navbar {
-    background-color: black;
+    color: transparent;
 }
 
+
+.nav-link, .navbar-brand {
+    color: black;
+}
 
  /* Header */
 
@@ -19,9 +26,6 @@ header {
 
 /* About */
 
-#about {
-    background-color: rgb(231, 229, 229);
-}
 
 section {
     padding: 150px 0;
