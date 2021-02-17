@@ -17,7 +17,7 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md sticky-top navbar-dark">
-        <a class="navbar-brand ml-5" href="#" id="brand">
+        <a class="navbar-brand ml-5" href="#">
             E
         </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#homeNavbar">
@@ -57,7 +57,9 @@
         <div class="container text-center">
                 <h1 id="caption">Hello, my name is Ervin.</h1>
                     <p class="text-center lead" id="caption">And I'm a Frontend Developer & Freelancer.</p>
-                    <button type="button" class="btn btn-light" id="resume">Resume</button>
+                    <button type="button" class="btn btn-light" id="resume">
+                        <a href="/images/RESUME2021.pdf" download>Resume</a>
+                    </button>
         </div>
     </header>
 
@@ -103,7 +105,9 @@
                                         <span class="badge badge-pill badge-info mb-2">Javascript</span>
                                             <p class="card-text">I built a cafe site from scratch that will allow a small business to grow its online presence and allow its users to view information on the cafe, such as their location, registering for their weekly newsletters, history, menu and a way of ordering online.</p>
                                             <p class="card-text"></p>
-                                            <a href="#" class="btn btn-light">Sneak Peak</a>
+                                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#project1">
+                                                Sneak Peak
+                                            </button>
                                 </div>
                             </div>
                         <!-- Project #2 -->
@@ -111,6 +115,30 @@
                 </div>
             </div>
       </section>
+
+    <!-- Project #1 Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                        The Daily Grind
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./images/theDailyGrind.png" class="img-fluid rounded" alt="Daily Grind Snapshot"/>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark">
+                        Go to Site
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Contact -->
     <section id="contact">
@@ -140,7 +168,6 @@
             </div>
         </div>
       </section>
-
 
   <!-- Footer -->
     <footer class="py-5" id="footer">
