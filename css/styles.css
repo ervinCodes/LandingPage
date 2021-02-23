@@ -10,6 +10,7 @@ body {
 .scrolling-active {
     background-color: white;
     box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+    transition: .7s ease;
 }
 
 .scrolling-active nav {
@@ -24,7 +25,7 @@ body {
 
 
 .nav-link, .navbar-brand {
-    color: black;
+    color: black !important;
 }
 
  /* Header */
