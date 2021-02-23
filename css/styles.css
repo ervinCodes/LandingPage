@@ -6,12 +6,21 @@ body {
     background-size: cover;
 }
 
+/* Apply styles after scroll */
+.scrolling-active {
+    background-color: white;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+}
 
+.scrolling-active nav {
+    height: 6.6rem;
+}
+
+.scrolling-active .nav a{
+    color: #070707;
+}
 
 /* Navigation */
-.navbar {
-    color: transparent;
-}
 
 
 .nav-link, .navbar-brand {
