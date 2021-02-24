@@ -32,7 +32,8 @@ body {
 
 header {
     padding: 300px 0 400px;
-  }
+}
+
 
 /* About */
 
@@ -60,6 +61,10 @@ h1, h2, p {
 }
 
 /* Footer */
+
+#black {
+    color: white !important;
+}
 
 #footer {
     background-color: black;

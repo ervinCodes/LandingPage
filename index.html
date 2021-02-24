@@ -13,6 +13,11 @@
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+        <link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
 </head>
 <body>
     <!-- Navigation -->
@@ -57,7 +62,9 @@
         <div class="container text-center">
                 <h1 id="caption">Hello, my name is Ervin.</h1>
                     <p class="text-center lead" id="caption">And I'm a Frontend Developer & Freelancer.</p>
-                        <a class="btn btn-dark" href="/images/RESUME2021.pdf" download>Resume</a>
+                        <a class="btn btn-dark" href="/images/RESUME2021.pdf" download>Download Resume</a>
+
+            <div id="github-widget" data-user="pointblank3d" data-display="pop_repos,calendar,data-display"></div>
         </div>
     </header>
 
@@ -145,7 +152,7 @@
                 <div class="col-lg-6 mx-auto" id="connect">
                     <h2 class="display-4">Lets Connect</h2>
                     <p>
-                        <a class="nav-link text-white" href="mailto:ean1207@gmail.com" target="_blank">
+                        <a class="nav-link" href="mailto:ean1207@gmail.com" target="_blank" id="black">
                             <i class="fa fa-envelope fa-lg"> 
                                 <u>
                                     ean1207@gmail.com
@@ -162,7 +169,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <a class="nav-link text-white" href="#" id="top">Back to Top</a>
+                <a class="nav-link" href="#" id="top black">Back to Top</a>
             </div>
         </div>
       </section>
@@ -180,5 +187,9 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./js/javascript.js"></script>
+
+    
+    <script src="https://gh-widget.oyanglul.us/index.js"></script>
+
 </body>
 </html>
