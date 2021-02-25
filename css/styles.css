@@ -55,6 +55,9 @@ h1, h2, p {
     width: auto;
 }
 
+/* Projects */
+
+
 /* Contact Page */
 
 #connect {
@@ -63,6 +66,16 @@ h1, h2, p {
     text-align: center;
     padding: 20px; 
 }
+
+.social {
+    text-align: center;
+    height: auto;
+    width: auto;
+    background: rgba(255, 255, 255, 0.144);
+    border-radius: 100%;
+    line-height: 2rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
 
 /* Footer */
 
