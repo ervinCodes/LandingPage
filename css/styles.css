@@ -34,9 +34,12 @@ header {
     padding: 300px 0 400px;
 }
 
+.btn {
+    background-color: #1f2833;
+}
+
 
 /* About */
-
 
 section {
     padding: 150px 0;
@@ -55,7 +58,28 @@ h1, h2, p {
     width: auto;
 }
 
+.badge1 {
+    background-color: #5d5c61;
+}
+
+.badge2 {
+    background-color: #b1a296;
+}
+
+.badge3 {
+    background-color: #557a95;
+}
+
 /* Projects */
+
+#card1 {
+    background-color: #557a95;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
 
 
 /* Contact Page */
