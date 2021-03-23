@@ -6,6 +6,10 @@ body {
     background-size: cover;
 }
 
+a { 
+    color: inherit; 
+} 
+
 /* Apply styles after scroll */
 .scrolling-active {
     background-color: white;
@@ -13,13 +17,6 @@ body {
     transition: .7s ease;
 }
 
-.scrolling-active nav {
-    height: 6.6rem;
-}
-
-.scrolling-active .nav a{
-    color: #070707;
-}
 
 /* Navigation */
 
