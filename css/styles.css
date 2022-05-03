@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 /* Body */
 
 body {
     background: url(/images/forest.jpg) no-repeat 50% fixed;
     background-size: cover;
+}
+
+#name {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 40px;
 }
 
 a { 
@@ -73,6 +79,7 @@ h1, h2, p {
 }
 
 /* Projects */
+
 
 .projects-bg {
     background-color: #2b4162;
