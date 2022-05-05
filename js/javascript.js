@@ -1,5 +1,5 @@
 window.addEventListener('scroll', function() {
-    let nav = document.querySelector('nav');
+    var nav = document.getElementsByTagName('nav')[0];
     let windowPosition = window.scrollY > 200
 
     nav.classList.toggle('scrolling-active', windowPosition);
